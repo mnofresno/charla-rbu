@@ -16,13 +16,11 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-xlarge.css" />
-		</noscript>
+		<link rel="stylesheet" href="css/skel.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/style-xlarge.css" />
 	</head>
-	<body class="landing">
+	<body class="landing" style="display:none;">
 
 		<!-- Header -->
 			<header id="header">
@@ -133,21 +131,21 @@
 							</section>
 							<section class="3u 6u(medium) 12u$(xsmall) profile centrada">
                                 <a href="http://www.bbc.com/mundo/noticias-38446994" target="_blank">
-                                    <i class="icon big rounded color2 fa-file-text"></i>
+                                    <i class="icon big rounded color2 fa-globe"></i>
                                     <h4>Varios ejemplos de RBU en el mundo</h4>
                                     <p>Por qué en 2017 cientos de miles de personas recibirán un salario por el que no tuvieron que trabajar</p>
                                 </a>
 							</section>
 							<section class="3u 6u(medium) 12u$(xsmall) profile centrada">
                                 <a href="https://www.worldcrunch.com/culture-society/universal-basic-income-5-experiments-from-around-the-world-1" target="_blank">
-                                    <i class="icon big rounded color3 fa-file-text"></i>
+                                    <i class="icon big rounded color3 fa-flask"></i>
                                     <h4>Cinco experimentos con RBU</h4>
                                     <p>Interesante artículo detallando los datos de los casos de RBU en Finlandia, India, Italia, Francia y Holanda.</p>
                                 </a>
 							</section>
 							<section class="3u 6u(medium) 12u$(xsmall) profile centrada">
                                 <a href="https://es.wikipedia.org/wiki/Thomas_Paine" target="_blank">
-                                    <i  class="icon big rounded color3 fa-file-text"></i>
+                                    <i  class="icon big rounded color3 fa-book"></i>
                                     <h4>Artículo de Wikipedia</h4>
                                     <p>Sobre Thomas Paine, uno de los primeros pensadores que esbozó la idea de la RBU.</p>
                                 </a>
@@ -188,6 +186,10 @@
 					</div>
 				</div>
 			</footer>
-
+	    <script>
+		$(document).ready(function(){
+		    $('body').fadeIn(1000);
+		});
+	    </script>
 	</body>
 </html>

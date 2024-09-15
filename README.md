@@ -1,4 +1,3 @@
-```markdown
 # charla-rbu
 
 ## Descripción
@@ -41,9 +40,4 @@ Este proyecto está bajo la licencia [Creative Commons Attribution 3.0](template
 
 Si deseas contribuir a este proyecto, siéntete libre de hacer un fork del repositorio y enviar un pull request con tus mejoras o correcciones.
 
-## Contacto
-
-Para más información o preguntas, puedes contactarme a través de mi correo electrónico: [tu_email@example.com](mailto:tu_email@example.com).
-
 ¡Gracias por visitar el proyecto!
-```
